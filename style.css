@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./photo/nathan-jennings-hus5fEdu8wA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 15vmin;
+    text-align: center;
+    color: rgb(240, 240, 240);
+}
+.line{
+    width: 20vmin;
+    height: 0.7vmin;
+    background-color: crimson;
+    border-radius: 4vmin;
+    margin: 0.7vmin auto;
+    margin-bottom: 5vmin;
+}
+h2{
+    color: rgb(137, 181, 238);
+}
+.ctn{
+    background-color: rgb(250, 41, 86);
+    padding: 0.7vmin;
+    border-radius: 1.6vmin;
+    color: rgb(240, 224, 151);
+}
+ul{
+    list-style: none;
+}
+.navbar{
+    position: absolute; /*for transperency*/
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: rgb(240, 240, 240);
+    padding: 3vmin;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    margin-right: 0.2vmin;
+}
+.navlinks li{
+    margin-right: 8vmin;
+}
+.menu-btn{
+    position: absolute;
+    top: 3vmax;
+    left: 87%;
+    width: 5vmax;
+    cursor: pointer;
+    display: none;
+    border-radius: 200px;
+}
+.wonder{
+    margin-bottom: 2vmin;
+}
+/* .event{
+    padding: 5%;
+} */
+
+.upcome{
+    text-align: center;
+}
+.row{
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+.col1{
+    margin-right: 7vw;
+}
+.col2{
+    margin-right: 17vw;
+}
+@media only screen and (max-width: 800px){
+    .navbar{
+        padding: 0;
+        font-size: 80%;
+        padding: 4vmin;
+    }
+   
+}
+@media only screen and (max-width: 660px){
+    .navbar{
+        padding: 0;
+        font-size: 55%;
+        padding: 3vmin;
+        margin-left: 7vmin;
+    }
+
+}
+@media only screen and (max-width: 660px){
+    .navbar{
+        padding: 0;
+        font-size: 42%;
+        padding: 3vmin;
+        margin-left: 5vmin;
+    }
+
+}
+    
